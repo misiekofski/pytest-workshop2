@@ -38,4 +38,7 @@ Dla generowania poprawnych peseli możesz użyć strony [generator peseli](http:
 
 ### Zadanie 3 - moduł badcode
 W pliku `answer.py` znajduje się funkcja `is_this_answer_to_ultimate_question_of_life(n):` napisana przez średnio poczytalnego programistę Pythona.
-Napisz test 
+Napisz test, który sprawdzi czy wszystkie przypadki `n` od 1 do 100 włącznie **nie zwracają** napisu `"That should not happen at all!"`
+
+### Zadanie 4 - moduł goodcode
+W pliku `htmlformatter.py` jest klasa z różnymi funkcjami. Pokryj 100% kodu testami jednostkowymi.
