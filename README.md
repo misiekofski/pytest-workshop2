@@ -42,3 +42,9 @@ Napisz test, który sprawdzi czy wszystkie przypadki `n` od 1 do 100 włącznie 
 
 ### Zadanie 4 - moduł goodcode
 W pliku `htmlformatter.py` jest klasa z różnymi funkcjami. Pokryj 100% kodu testami jednostkowymi.
+
+
+### Zadanie 5 - moduł goodcode
+W pliku `logstream.py` jest aplikacja która po uruchomieniu będzie wyrzucać logi na stdout.
+Zastanówcie się jak ją przetestować. Czy warto ją zrefaktoryzować? Testowanie stdout może być problematyczne.
+Jakie testy powinniśmy napisać zakładając, że te logi są parsowane i generujemy z nich dashboardy?
