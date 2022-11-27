@@ -5,7 +5,7 @@ import pytest
 
 def read_phonebook_entries():
     entries = []
-    with open("data.csv") as f:
+    with open("phonebook/data.csv") as f:
         reader = csv.DictReader(f)
         for row in reader:
             name = row['Name']
