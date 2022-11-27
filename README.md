@@ -6,7 +6,15 @@
 ## Zadania warsztatowe
 Do wykonania grupowo (3 osoby na grupę)
 
-### Zadanie 1 - moduł palindrome
+### Zadanie 1 - cleanup
+1. Zmień kod fixtury w pliku `./phonebook/conftest.py` tak żeby po teście plik został usunięty.
+2. Uruchom test i sprawdź czy wszystko jest ok
+
+### Zadanie 2 - built-in fixtury
+1. Zmień kod fixtury w pliku `./phonebook/conftest.py`. Chcemy użyć wbudowanej fixtury `tmpdir`.
+2. Uruchom test i sprawdź czy wszystko jest ok
+
+### Zadanie 3 - moduł palindrome
 *Palindrom - wyrażenie brzmiące tak samo czytane od lewej do prawej i od prawej do lewej.*
 
 1. Napisz funkcję is_palindrome która sprawdzi czy wyraz jest palindromem
@@ -18,7 +26,7 @@ Do wykonania grupowo (3 osoby na grupę)
 7. Rozbuduj funkcję `is_palindrome` tak żeby omijał znaki specjalne. Tzn. następujące stringi też są palindromami (`Ilu beczy z cebuli?`, `O, i natka tu tak tanio!`)
 8. Sprawdź pokrycie kodem metody `is_palindrome`. Spróbuj dobić do 100 procent.
 
-### Zadanie 2 - moduł badcode
+### Zadanie 4 - moduł badcode
 W pliku `pesel.py` znajduje się błędna funkcja `analyze_pesel()`. Funkcja ta przyjmuje jeden parametr: `pesel`, a zwraca słownik z następującymi kluczami:
 
     "pesel": wejściowy numer,
@@ -36,15 +44,15 @@ Popraw ewentualne błędy, aż wszystkie napisane przed chwilą testy przejdą.
 Dla generowania poprawnych peseli możesz użyć strony [generator peseli](http://pesel.felis-net.com/)
 
 
-### Zadanie 3 - moduł badcode
+### Zadanie 5 - moduł badcode
 W pliku `answer.py` znajduje się funkcja `is_this_answer_to_ultimate_question_of_life(n):` napisana przez średnio poczytalnego programistę Pythona.
 Napisz test, który sprawdzi czy wszystkie przypadki `n` od 1 do 100 włącznie **nie zwracają** napisu `"That should not happen at all!"`
 
-### Zadanie 4 - moduł goodcode
+### Zadanie 6 - moduł goodcode
 W pliku `htmlformatter.py` jest klasa z różnymi funkcjami. Pokryj 100% kodu testami jednostkowymi.
 
 
-### Zadanie 5 - moduł goodcode
+### Zadanie 7 - moduł goodcode
 W pliku `logstream.py` jest aplikacja która po uruchomieniu będzie wyrzucać logi na stdout.
 Zastanówcie się jak ją przetestować. Czy warto ją zrefaktoryzować? Testowanie stdout może być problematyczne.
 Jakie testy powinniśmy napisać zakładając, że te logi są parsowane i generujemy z nich dashboardy?
