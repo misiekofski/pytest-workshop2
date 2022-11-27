@@ -48,3 +48,15 @@ W pliku `htmlformatter.py` jest klasa z różnymi funkcjami. Pokryj 100% kodu te
 W pliku `logstream.py` jest aplikacja która po uruchomieniu będzie wyrzucać logi na stdout.
 Zastanówcie się jak ją przetestować. Czy warto ją zrefaktoryzować? Testowanie stdout może być problematyczne.
 Jakie testy powinniśmy napisać zakładając, że te logi są parsowane i generujemy z nich dashboardy?
+
+
+### Zadanie 6 - raporty
+Uruchom testy dla zadań od 1 do 5 i wygeneruj raport html z testów.
+
+
+### Zadanie 7
+Napisz testy do modułu `rpg` które będą odczytywać dane z pliku `items.csv`.
+Żeby to zrobić musisz utworzyć Item (z trzema parametrami) a nastepnie przekazać listę obiektów Item do GildedRose.
+Testujemy metodę `update_quality()`.
+
+Cel: pokrycie 100% kodu `gilded_rose` testami. Uzupełnij items.csv odpowiednimi danymi testowymi.
